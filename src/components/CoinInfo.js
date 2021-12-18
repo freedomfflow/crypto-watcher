@@ -1,11 +1,11 @@
 import React from 'react';
 
-const HomePage = () => {
+const CoinInfo = () => {
   return (
       <div>
-        HomePage Page
+        
       </div>
   );
 };
 
-export default HomePage;
+export default CoinInfo;
