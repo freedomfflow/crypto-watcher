@@ -1,3 +1,29 @@
+# Improvements
+
+### Theme
+I believe I can move the theme to a higher level and wrap in index or app
+as opposed to recreating the theme in multiple places
+
+### BTC currency symbol 
+Need to figure out how to render html entity
+
+### React-html-parser
+This will address embedded html & likely issue above, but I get a webpack
+related error since I guess useing < weback 5...  If I use the translation package
+it has a parse function and the way I manage the data will probably fix this
+without figuring out react-html-parser, although I need to
+
+### Styling
+Not sure if this is the best way to handle... think I can pull out much of
+the embedded styles, and I can make use of styled components and global styles I believe
+
+### Errors
+Chart currency not working when change to BTC
+
+Get some compile warnings relating to useEffect dependencies -- should figure this out
+
+-------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
