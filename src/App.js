@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import { Header, Banner } from './components';
+import { Header, Alert } from './components';
 import { CoinPage, HomePage } from './Pages';
 import { makeStyles } from '@material-ui/core';
 
@@ -25,6 +25,7 @@ function App() {
             <Route path='/coins/:id' element={<CoinPage />} />
           </Routes>
         </div>
+        <Alert />
       </BrowserRouter>
   );
 }
